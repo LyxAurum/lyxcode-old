@@ -15,14 +15,10 @@ module.exports = async (client) => {
 
         if(!command.name) return;
 
-        if(command.permission && !Permissions.includes(command.permission)) {
-
-            return console.log(`❌ Command Permission Is Invalid: ${command.name}`);
-
-        } else if(command.permission && Permissions.includes(command.permission)) {
+            if(command.permission) {
             
-            command.defaultPermission = false;
-        }
+            command.defaultPermission = false
+            }
 
         commandsArry.push(command);
         client.commands.set(command.name, command);
