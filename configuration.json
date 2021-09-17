@@ -1,0 +1,13 @@
+{
+    "Token": "YOUR TOKEN",
+    "DBURL": "YOUR DB URL",
+    "InfractionsLogs": "YOUR INFRACTION LOGS CHANNEL",
+    "MutedRole": "YOUR MUTE ROLE",
+    "LyxPurp": "#610094",
+    "Entrance": "YOUR WELCOME CHANNEL",
+    "MemberRole": "YOUR MEMBER ROLE",
+    "WelcomeCHNL": "YOUR WELCOME CHANNEL ID",
+    "MessageLogs": "YOUR MESSAGE LOGS",
+    "GiveAwaysCHNL": "YOUR GIVEAWAY CHANNEL",
+    "InformationCHNL": "YOUR INFORMATION CHANNEL"
+}

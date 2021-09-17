@@ -1,0 +1,32 @@
+{
+  "name": "tkf-bot",
+  "version": "1.0.0",
+  "description": "A private discord bot for the TKF Community discord server.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyxAurum/tkf-bot.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "LYXCODE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyxAurum/tkf-bot/issues"
+  },
+  "homepage": "https://github.com/LyxAurum/tkf-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.2",
+    "ms": "^2.1.3",
+    "util": "^0.12.4"
+  }
+}
